@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify – Web Player</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div class="sidebar">
+            <img class="image" src="Spotify_Logo_RGB_White.png" alt="spotify"><br>
+        <div class="sidebar-contents">
+            <svg style="fill:white;" role="img" height="24" width="24" class="Svg-ytk21e-0 eqtHWV home-active-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M13.5 1.515a3 3 0 00-3 0L3 5.845a2 2 0 00-1 1.732V21a1 1 0 001 1h6a1 1 0 001-1v-6h4v6a1 1 0 001 1h6a1 1 0 001-1V7.577a2 2 0 00-1-1.732l-7.5-4.33z"></path></svg>
+            <a href="#"class="button1">Home</a> <br>
+
+            <!-- <br><br><img class="icon" src="search_icon.svg" alt="icon"> -->
+            <br><svg style="fill:white;" role="img" height="24" width="24" class="Svg-ytk21e-0 eqtHWV search-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M10.533 1.279c-5.18 0-9.407 4.14-9.407 9.279s4.226 9.279 9.407 9.279c2.234 0 4.29-.77 5.907-2.058l4.353 4.353a1 1 0 101.414-1.414l-4.344-4.344a9.157 9.157 0 002.077-5.816c0-5.14-4.226-9.28-9.407-9.28zm-7.407 9.279c0-4.006 3.302-7.28 7.407-7.28s7.407 3.274 7.407 7.28-3.302 7.279-7.407 7.279-7.407-3.273-7.407-7.28z"></path></svg>
+            <a href="#" class="button2">Search</a> <br>
+
+            <!-- <br><br><img class="icon" src="library_icon.svg" alt="icon"> -->
+
+            <br><svg style="fill:white;" role="img" height="24" width="24" class="Svg-ytk21e-0 eqtHWV collection-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M14.5 2.134a1 1 0 011 0l6 3.464a1 1 0 01.5.866V21a1 1 0 01-1 1h-6a1 1 0 01-1-1V3a1 1 0 01.5-.866zM16 4.732V20h4V7.041l-4-2.309zM3 22a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1zm6 0a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1z"></path></svg>
+            <a href="#" class="button2">Your Library</a>
+
+            <div class="content1">
+                <br><br>
+                <img class="icon1" src="plus_icon.svg" alt="icon"> 
+                <!-- <svg style="fill:white;" role="img" height="12" width="12" aria-hidden="true" viewBox="0 0 16 16" class="Svg-ytk21e-0 eqtHWV"><path d="M15.25 8a.75.75 0 01-.75.75H8.75v5.75a.75.75 0 01-1.5 0V8.75H1.5a.75.75 0 010-1.5h5.75V1.5a.75.75 0 011.5 0v5.75h5.75a.75.75 0 01.75.75z"></path></svg> -->
+                <a href="#" class="button3">Create Playlist</a><br>
+
+                <!-- <br><img class="icon2" src="liked.svg" alt="icon"> -->
+                <br><svg style="fill:white;" role="img" height="12" width="19" aria-hidden="true" viewBox="0 0 16 16" class="Svg-ytk21e-0 eqtHWV"><path d="M15.724 4.22A4.313 4.313 0 0012.192.814a4.269 4.269 0 00-3.622 1.13.837.837 0 01-1.14 0 4.272 4.272 0 00-6.21 5.855l5.916 7.05a1.128 1.128 0 001.727 0l5.916-7.05a4.228 4.228 0 00.945-3.577z"></path></svg>
+                <a href="#"class="button3"> Liked Songs</a>
+            </div>
+            
+            <div class="bottom11">
+            <ul>
+                <li>
+                    <a class="atag"href="#">Cookies</a><br><br>
+                </li>
+
+                <li>
+                    <a class="atag"href="#">Privacy</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </div>
+<div class="body1">
+    <div class="top-nav">
+        <div class="right-side">
+            <a href="#" class="atg">Premium</a>
+            <a href="#" class="atg">Support</a>
+            <a href="#" class="atg">Download</a> 
+            <a style="font-size:20px;" class="atg line"  href="">|</a>
+            <button class="bt2">Sign Up</button>
+            <button class="bt1">Log in</button> 
+        </div>
+        <!-- <img class="arrow" src="left.svg" alt="arrow_icon">
+
+        <img class="arrow" src="right.svg" alt="arrow_icon"> -->
+            <svg role="img" height="17" width="17" class="svgi" viewBox="0 0 24 24"><path d="M15.957 2.793a1 1 0 010 1.414L8.164 12l7.793 7.793a1 1 0 11-1.414 1.414L5.336 12l9.207-9.207a1 1 0 011.414 0z"></path></svg>
+            <svg role="img" height="17" width="17" class="svgi" viewBox="0 0 24 24"><path d="M8.043 2.793a1 1 0 000 1.414L15.836 12l-7.793 7.793a1 1 0 101.414 1.414L18.664 12 9.457 2.793a1 1 0 00-1.414 0z"></path></svg>
+
+    </div>
+</div>
+<div class="Body-content">
+<!-- one-->
+        <br><h3><a class="heading" href="#">Spotify Playlist</a></h3>
+        <a class="seeall" href="#">SEE ALL</a>
+    <div class="album-content">
+            <div class="list">
+                <div class="list1"> 
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                    </svg> -->
+                    <div class="image">
+                        <img class="img1" src="album1.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>Today's Top Hits</h4><br>
+                        <p style="color: #959292;">SZA is on the top of the Hottest 50!</p>
+                    </div>
+                </div>
+                
+                <div class="list1">
+                    <div class="image">
+                        <img class="img1" src="album2.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>RapCaviar</h4><br>
+                        <p style="color: #959292;">New Music from Drake and 21 Savage</p>
+                    </div>
+                </div>
+                <div class="list1">
+                    <div class="image">
+                        <img class="img1" src="album3.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>All Out 2010s</h4><br>
+                        <p style="color: #959292;">The biggest songs of the 2010s. Cover: Macklemore & Ryan....</p>
+                    </div>
+                </div>
+                <div class="list1">
+                    <div class="image">
+                        <img class="img1" src="album4.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>Rock Classics</h4><br>
+                        <p style="color: #959292;">Rock legends & epic songs that continue to inspire generations.</p>
+                    </div>
+                </div> 
+                <div class="list1">
+                    <div class="image">
+                        <img class="img1" src="album5.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>Chill Hits</h4><br>
+                        <p style="color: #959292;">Kick back to the best new and recent chill hits.</p>
+                    </div>
+                </div>   
+        </div> 
+    </div>
+<!-- two -->
+    <div class="album-content">
+        <br><h3><a class="heading" href="#">Sleep</a></h3>
+        <div class="list">
+            <div class="list1"> 
+                <div class="image">
+                    <img class="img1" src="sleep1.jpg" alt="album_img">
+                </div>
+                <div class="text">
+                    <h4>Sleep</h4><br>
+                    <p style="color: #959292;">Gentle ambient piano to help you fall asleep.</p>
+                </div>
+            </div>
+            
+            <div class="list1">
+                <div class="image">
+                    <img class="img1" src="sleep2.jpg" alt="album_img">
+                </div>
+                <div class="text">
+                    <h4>DayDreamer</h4><br>
+                    <p style="color: #959292;">Drift away with enthralling instrumentals.</p>
+                </div>
+            </div>   
+        </div> 
+    </div>
+<!-- three -->
+<br><h3><a class="heading" href="#">Focus</a></h3>
+        <a class="seeall" href="#">SEE ALL</a>
+    <div class="album-content">
+            <div class="list">
+                <div class="list1"> 
+                    <div class="image">
+                        <img class="img1" src="focus1.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>Peaceful Piano</h4><br>
+                        <p style="color: #959292;">Relax and indulge with beautiful piano pieces</p>
+                    </div>
+                </div>
+                
+                <div class="list1">
+                    <div class="image">
+                        <img class="img1" src="focus2.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>Deep Focus</h4><br>
+                        <p style="color: #959292;">Keep calm and focus with ambient and post-rock music.</p>
+                    </div>
+                </div>
+                <div class="list1">
+                    <div class="image">
+                        <img class="img1" src="focus3.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>Instrumental Study</h4><br>
+                        <p style="color: #959292;">Focus with soft study music in the background.</p>
+                    </div>
+                </div>
+                <div class="list1">
+                    <div class="image">
+                        <img class="img1" src="focus4.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>Chill lofi study beats</h4><br>
+                        <p style="color: #959292;">The perfect study beats, twenty four seven.</p>
+                    </div>
+                </div> 
+                <div class="list1">
+                    <div class="image">
+                        <img class="img1" src="focus5.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>Coding Mode</h4><br>
+                        <p style="color: #959292;">Dedicated to all the programmers out there.</p>
+                    </div>
+                </div>   
+        </div> 
+    </div>
+<!-- four -->
+<br><h3><a class="heading" href="#">Mood</a></h3>
+        <a class="seeall" href="#">SEE ALL</a>
+    <div class="album-content">
+            <div class="list">
+                <div class="list1"> 
+                    <div class="image">
+                        <img class="img1" src="mood1.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>Mood Booster</h4><br>
+                        <p style="color: #959292;">Get happy with today's dose of feel-good songs!</p>
+                    </div>
+                </div>
+                
+                <div class="list1">
+                    <div class="image">
+                        <img class="img1" src="mood2.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>Feelin'Good</h4><br>
+                        <p style="color: #959292;">Feel good with this positively timeless playlist!
+                        </p>
+                    </div>
+                </div>
+                <div class="list1">
+                    <div class="image">
+                        <img class="img1" src="mood3.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>Dark & Stormy</h4><br>
+                        <p style="color: #959292;">Beautifully dark, dramatic tracks.
+                        </p>
+                    </div>
+                </div>
+                <div class="list1">
+                    <div class="image">
+                        <img class="img1" src="mood4.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>Feel Good Piano</h4><br>
+                        <p style="color: #959292;">Happy vibes for an upbeat morning.</p>
+                    </div>
+                </div> 
+                <div class="list1">
+                    <div class="image">
+                        <img class="img1" src="mood5.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>Feelin'Myself</h4><br>
+                        <p style="color: #959292;">The hip-hop playlist that's a whole mood. Art By Laci Jordan; Cover: Big Boss Vette.</p>
+                    </div>
+                </div>   
+        </div> 
+    </div>
+<!-- five -->
+<br><h3><a class="heading" href="#">Popular new releases</a></h3>
+        <a class="seeall" href="#">SEE ALL</a>
+    <div class="album-content">
+            <div class="list">
+                <div class="list1"> 
+                    <div class="image">
+                        <img class="img1" src="new1.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>Her Loss</h4><br>
+                        <p style="color: #959292;">Drake,21 Savage</p>
+                    </div>
+                </div>
+                
+                <div class="list1">
+                    <div class="image">
+                        <img class="img1" src="new2.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>SMITHEREENS</h4><br>
+                        <p style="color: #959292;">Joji</p>
+                    </div>
+                </div>
+                <div class="list1">
+                    <div class="image">
+                        <img class="img1" src="new3.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>My Mind & Me</h4><br>
+                        <p style="color: #959292;">Selena Gomez</p>
+                    </div>
+                </div>
+                <div class="list1">
+                    <div class="image">
+                        <img class="img1" src="new4.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>Russell Dickerson</h4><br>
+                        <p style="color: #959292;">Russell Dickerson</p>
+                    </div>
+                </div> 
+                <div class="list1">
+                    <div class="image">
+                        <img class="img1" src="new5.jpg" alt="album_img">
+                    </div>
+                    <div class="text">
+                        <h4>10:35</h4><br>
+                        <p style="color: #959292;">Tiësto,Tate McRae</p>
+                    </div>
+                </div>   
+        </div> 
+    </div>
+    <div></div>
+
+</div> 
+
+
+
+<div class="preview">
+    <div class="text1">
+        <h6>PREVIEW OF SPOTIFY</h6>
+        <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+    </div>
+    <div class="button12">
+        <button class="button-sign1">Sign up free</button>
+    </div>
+</div>
+
+
+</div>
+
+</body>
+</html>
